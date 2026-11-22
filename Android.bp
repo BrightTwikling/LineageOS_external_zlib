@@ -184,7 +184,7 @@ cc_defaults {
 cc_library {
     name: "libz",
     defaults: ["libz_defaults"],
-
+    recovery_available: true,
     srcs: libz_srcs,
 
     unique_host_soname: true,
